@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DemoPage {    
 	//tesng.xml and default url both are fb.com and we are identifying 
-	@FindBy(id="email")
+	@FindBy(id="username")
 	private WebElement unTB;
 	
 	public DemoPage(WebDriver driver)

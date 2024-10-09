@@ -12,7 +12,7 @@ import org.testng.annotations.Parameters;
 
 
 public class BaseTest {
-	public final String DEFAULT_URL="https://www.fb.com";
+	public final String DEFAULT_URL="https://online.actitime.com/abc/login.do";
 	public final String DEFAULT_BROWSER ="edge";
 	public final String DEFAULT_ITO="9";
 	public final String DEFAULT_ETO="10";
