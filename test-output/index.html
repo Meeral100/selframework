@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\wenni\Java Selenium\SeleniumWorkspace\selframework\testng.xml</span>
+                    <span>C:\Users\wenni\git\selframework\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -136,7 +136,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\wenni\Java Selenium\SeleniumWorkspace\selframework\testng.xml</span>
+            <span class="header-content">C:\Users\wenni\git\selframework\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,7 +146,8 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;ETO&quot; value=&quot;9&quot;/&gt;
     &lt;parameter name=&quot;ITO&quot; value=&quot;10&quot;/&gt;
-    &lt;parameter name=&quot;appURL&quot; value=&quot;https://www.fb.com&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;appURL&quot; value=&quot;https://online.actitime.com/abc/login.do&quot;/&gt;
     &lt;packages&gt;
       &lt;package name=&quot;script&quot;/&gt;
     &lt;/packages&gt;
@@ -195,12 +196,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test1')
 data.setCell(0, 2, 'script.Test1')
-data.setCell(0, 3, 20);
+data.setCell(0, 3, 1213);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 ms</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -214,6 +215,7 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">test1</span>
               <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Wenissa</span>
                 <span class="reporter-method-output">test1....</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -234,16 +236,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">script.Test1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">preCondition(https://www.fb.com, 10, 9)</span>
+                <span class="method-name">preCondition(https://online.actitime.com/abc/login.do, chrome, 10, 9)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test1</span>
-                <span class="method-start">5138 ms</span>
+                <span class="method-start">8611 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">5164 ms</span>
+                <span class="method-start">9827 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
