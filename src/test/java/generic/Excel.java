@@ -21,5 +21,22 @@ public class Excel {
 		}
 		return v;
 	}
+	
+	public static int getTotalRowCount(String path, String sheet)
+	{
+		try
+		{
+			Workbook wb = WorkbookFactory.create(new FileInputStream(path));
+			int r=wb.getSheet(sheet).getLastRowNum();
+			return r+1;
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+			return 0;
+		}
+		
+		
+	}
 
 }
