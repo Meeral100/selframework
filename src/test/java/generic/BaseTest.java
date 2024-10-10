@@ -27,6 +27,7 @@ public class BaseTest {
 		long longITO =Long.parseLong(ITO);
 		long longETO =Long.parseLong(ETO);
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get(appURL);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(longITO));
 		wait = new WebDriverWait(driver,Duration.ofSeconds(longETO));
