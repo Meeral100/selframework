@@ -36,7 +36,7 @@ public class BaseTest {
 	@AfterMethod
 	public void postCondition()
 	{
-		//driver.close();
+		driver.quit();
 		
 	}
 
